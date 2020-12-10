@@ -143,3 +143,116 @@ audio {
   top: 130px;
   position: absolute;
 }
+
+@media screen and (max-width: 768px) {
+  .form,
+  .greeetings,
+  .nameDelete {
+    display: none;
+  }
+
+  .showing {
+    display: block;
+  }
+
+  .deleteAll {
+    display: none;
+  }
+
+  .nameDelete {
+    display: none;
+  }
+
+  .music_title,
+  .music_title_p {
+    display: none;
+  }
+  .bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;
+  }
+
+  .js_title {
+    text-align: center;
+    font-size: 4em;
+    line-height: 50px;
+    margin-bottom: 5px;
+    margin-top: 0;
+  }
+
+  form {
+    text-align: center;
+  }
+
+  .greeetings {
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+  }
+
+  input {
+    display: flex;
+    margin: 10px auto;
+    outline: none;
+    width: 70%;
+    height: 50%;
+    font-size: 1em;
+    border-radius: 10px;
+    border: 2px solid wheat;
+    background-color: transparent;
+  }
+
+  ul {
+    display: inline;
+    list-style: none;
+    text-align: left;
+    margin-right: 0;
+  }
+
+  ul.js_todolist {
+    padding-left: 0;
+    margin-right: 0;
+    padding-inline-start: 0;
+  }
+
+  .js_todolist {
+    width: 46%;
+    margin: 0 0;
+  }
+
+  li {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .js_weather {
+    font-size: 1em;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+
+  li > span {
+    font-size: 1.5em;
+  }
+
+  .totolo {
+    display: none;
+  }
+
+  audio {
+    opacity: 0.15;
+    width: 100px;
+  }
+
+  .click_here {
+    left: 25px;
+    top: 40px;
+    position: absolute;
+  }
+}

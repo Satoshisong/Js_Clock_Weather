@@ -117,9 +117,18 @@ li {
   font-size: 1.5em;
   position: absolute;
   top: 30px;
-  left: 20px;
+  right: 20px;
 }
 
 li > span {
   font-size: 1.5em;
+}
+
+.totolo {
+  top: 155px;
+  position: absolute;
+  width: 310px;
+  height: 160px;
+  opacity: 0.3;
+  border-radius: 10px;
 }

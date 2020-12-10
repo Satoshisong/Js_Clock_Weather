@@ -137,3 +137,9 @@ li > span {
 audio {
   opacity: 0.15;
 }
+
+.click_here {
+  left: 25px;
+  top: 130px;
+  position: absolute;
+}
